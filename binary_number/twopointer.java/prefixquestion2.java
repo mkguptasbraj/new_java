@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//import static prefix_sum.makePrefixSumArray;
 
 public class prefixquestion2 {
     static int[] make_prefix_sum(int [] arr){
@@ -19,7 +20,7 @@ public class prefixquestion2 {
             arr[i]=abc.nextInt();
           
     }
-    int []prefix_sum = makePrefixSumArray(arr);
+    int []prefix_sum = make_prefix_sum(arr);
     System.out.println("Enter number of queries");
  int q = abc.nextInt();
  while(q-->0){
