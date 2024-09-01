@@ -78,7 +78,7 @@ static void printArray(int[] arr){
  reverse(ans);
   //sortoddAndEven(arr);
     printArray(ans);
-
+   
         
 
 
