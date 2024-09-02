@@ -2,12 +2,13 @@ import java.util.Scanner;
 
 public class addmatrix {
     static void printArray(int[][] arr){
-        for (int i = 0;i<arr.length;i++){
-            for(int j =0; j<arr[i].length;j++){
-                System.out.print(arr[i][j]+" ");
+        for (int i = 0;i<arr.length;i++) {
+            for (int j = 0; j < arr.length; j++) {
+                System.out.print(arr[i][j] + " ");
             }
-        System.out.println( );
-    }}
+            System.out.println( );
+        }
+}
 static void add(int[][] a ,int r1,int c1,int[][] b ,int r2,int c2){
     if(r1!=r2 || c1!=c2){
         System.out.println("wrong input");
