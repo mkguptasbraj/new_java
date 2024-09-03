@@ -8,12 +8,16 @@ static int FindSum(int [][]matrix,int l1,int r1,int l2,int r2){
         sum +=matrix[i][j];
     }
   }
-
-
-
-
     return sum;
 }
+
+static void printArray(int[][] arr){
+    for (int i = 0;i<arr.length;i++) {
+        for (int j = 0; j < arr[i].length; j++) {
+            System.out.print(arr[i][j] + " ");
+        }
+        System.out.println( );
+    }}
 
     public static void main(String[] args) {
          Scanner sc = new Scanner(System.in);
@@ -24,15 +28,16 @@ static int FindSum(int [][]matrix,int l1,int r1,int l2,int r2){
              int [][]a = new int [r][c];
              System.out.println("enter " + r *c +"element");
              for (int i = 0; i < r; i++) {
-                 for (int j = 0; j < c
-; j++) {
+                 for (int j = 0; j < c; j++) {
                      a[i][j]=sc.nextInt();
                  }
              }
+             printArray(a);
              System.out.println("Enter rectangle boundaries l1,l2,r,r2");
              int l1 = sc.nextInt();
              int r1= sc.nextInt();
              int l2 = sc.nextInt();
              int r2 = sc.nextInt();
+             System.out.println("Rectangle Sum "+ FindSum(a, l1, r1, l2, r2));
     }
 }
