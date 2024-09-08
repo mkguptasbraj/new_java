@@ -1,11 +1,22 @@
 import java.util.Scanner;
 
 public class first {
-
-    static void printIncreasing(int n) {
-        if (n < 1) {
-            return; // base case: if n is less than 1, stop
+      static void printDecersing(int n ){
+        // basecase
+        if(n==1){
+            System.out.println(n);
         }
+        else{
+            //self work
+            System.out.println(n);
+            //recursion work
+            printDecersing(n-1);
+        }
+      } 
+    static void printIncreasing(int n) {
+      //  if (n < 1) {
+          //  return; // base case: if n is less than 1, stop
+      //  }
         if (n == 1) {
             System.out.println(n);
         } else {
@@ -19,5 +30,6 @@ public class first {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         printIncreasing(n);
+        printDecersing(n);
     }
 }
