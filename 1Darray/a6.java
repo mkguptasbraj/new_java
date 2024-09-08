@@ -12,7 +12,7 @@ public class a6 {
             }
             for (int i = 2; i * i <= number; i++) {
                 if (number% i == 0) {
-                    System.out.println("");
+                    System.out.println(i);
 
 
 
