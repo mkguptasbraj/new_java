@@ -35,6 +35,6 @@ public class pascalTriangle {
       int n = sc.nextInt();
     int [][] ans =pascal(n);
     printArray(ans);
-    
+    sc.close();
         }
 }

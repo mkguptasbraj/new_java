@@ -76,11 +76,11 @@ static void printArray(int[] arr){
     printArray(arr);
    int []ans= sortSquared(arr);
  reverse(ans);
-  //sortoddAndEven(arr);
+  sortoddAndEven(arr);
     printArray(ans);
    
         
-
+    abc.close();
 
 
 

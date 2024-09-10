@@ -53,6 +53,9 @@ int [][] mutiply = new int [r1][c2];
                      b[i][j]=sc.nextInt();
                  }
              }
+         
              multiply(a, r1, r2, b, c1, c2);
- }   
+             sc.close();
+ 
+            }   
 }

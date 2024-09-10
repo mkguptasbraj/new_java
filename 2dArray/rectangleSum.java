@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import javax.lang.model.util.ElementScanner14;
 
 public class rectangleSum {
 static int FindSum1(int [][]matrix,int l1,int r1,int l2,int r2){
@@ -67,6 +66,9 @@ static void printArray(int[][] arr){
              int l2 = sc.nextInt();
              int r2 = sc.nextInt();
            // System.out.println("Rectangle Sum "+ FindSum1(a, l1, r1, l2, r2));
+         
            System.out.println("Rectangle Sum "+ FindSum2(a, l1, r1, l2, r2));
-    } 
+       sc.close();
+    
+        } 
 }

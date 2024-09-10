@@ -19,7 +19,7 @@ public class absss {
 
 }
  System.out.println(evensum+ " "+ oddsum);
-
+ sc.close();
     }
     
 }

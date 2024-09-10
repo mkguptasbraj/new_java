@@ -59,5 +59,7 @@ return  matrix;
  int n = sc.nextInt();
  int [][] matrix = generatesSpiralMatrix(n);
  printArray(matrix);
+
+ sc.close();
    } 
 }

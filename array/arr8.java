@@ -35,6 +35,6 @@ public class arr8 {
         System.out.println("enter the last occerence");
         int last_index = sc.nextInt();
         System.out.println("last occerence" + lastoccerance(arr, last_index));
-
+        sc.close();
     }
 }

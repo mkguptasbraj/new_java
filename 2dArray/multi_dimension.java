@@ -30,6 +30,9 @@ public class multi_dimension {
                      arr[i][j]=sc.nextInt();
                  }
              }
+           
              printArray(arr);
-    }
+    
+    sc.close();       
+ }
 }

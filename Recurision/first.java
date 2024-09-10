@@ -31,5 +31,8 @@ public class first {
         int n = sc.nextInt();
         printIncreasing(n);
         printDecersing(n);
+
+
+        sc.close();
     }
 }

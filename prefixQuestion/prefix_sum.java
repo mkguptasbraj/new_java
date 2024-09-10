@@ -41,7 +41,7 @@ public class prefix_sum {
 printArray(arr);
 int []ans = makePrefixSumArray(arr);
 printArray(ans);
-
+abc.close();
  }
     }
 

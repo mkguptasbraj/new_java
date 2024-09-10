@@ -45,7 +45,7 @@ static int[] rotateThearray (int [] arr,int k)
     int [] ans = rotateThearray(arr, k);
 
     printArray(ans);
-        
+    sc.close();
 
     }
 }

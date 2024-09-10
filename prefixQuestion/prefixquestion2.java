@@ -30,6 +30,7 @@ public class prefixquestion2 {
     int ans = prefix_sum[r]  - prefix_sum[l-1];
      System.out.println("sum " + ans);
     
+     abc.close();
  }
    } 
 }

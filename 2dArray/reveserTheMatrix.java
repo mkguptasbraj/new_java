@@ -57,6 +57,10 @@ public static void main(String[] args) {
       transposeInplace(arr, r1, c1);  
       
       printArray(arr);
+      
+      
+
+      
 
 
 
