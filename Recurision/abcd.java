@@ -1,6 +1,13 @@
+
 import java.util.Scanner;
 
-public class Factorial {
+
+
+
+public class abcd {
+   
+
+
   
     static int factorial(int n) {
         // Base case: factorial of 0 is 1
@@ -20,3 +27,4 @@ public class Factorial {
         sc.close();
     }
 }
+
