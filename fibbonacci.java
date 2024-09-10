@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class fibbonacci {
@@ -16,11 +15,13 @@ public class fibbonacci {
          return fib(n-1)+fib(n-2);
          // return prev + prevprev;
     }}
-    public static void main(String[] args) {
-        Scanner sc =new Scanner(System.in);
-        int n = sc.nextInt();
-  
+    public static void main(String[] args) {     
+           Scanner sc =new Scanner(System.in);
+                int n = sc.nextInt();
     System.out.println(fib(n));
+      for(int i=0;i<=n;i++){
+     System.out.println(fib(i));
+ }
 }
 
 
