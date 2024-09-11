@@ -23,7 +23,7 @@ public class arr12 {
             
         }
         System.out.println("total pair :: " +pair);
-    
+    sc.close();
     
     
     

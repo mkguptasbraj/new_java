@@ -34,5 +34,6 @@ public class arr15 {
 
  System.out.println("First max value ::"+find_max(arr));
  System.out.println("second max value::"+second_largest(arr));
-    }
+   
+ sc.close();}
 }

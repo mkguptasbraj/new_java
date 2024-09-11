@@ -22,6 +22,7 @@ public class arr6 {
 printArray(arr);
 int [] arr_2 = Arrays.copyOfRange(arr, 2, 4);
 printArray(arr_2);
+sc.close();
 
    } 
 }

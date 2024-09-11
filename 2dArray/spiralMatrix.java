@@ -61,5 +61,6 @@ totalElement++;
              printArray(a);
           System.out.println("SpiralOrder");
         printSpiralOrder(a, r1, c1);
+        sc.close();
     }
 }

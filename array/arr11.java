@@ -1,5 +1,4 @@
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -39,5 +38,6 @@ public class arr11 {
         printArray(arr);
         smallestAndlargerstsortarray(arr); 
         printArray(arr);
+        sc.close();
     }
 }

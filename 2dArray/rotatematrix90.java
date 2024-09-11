@@ -67,6 +67,6 @@ transposeInplace(arr, r1, c1);
              System.out.println("after the roate");
              rotateMatrix(a, r1, c1);
              printArray(a);
-
+             sc.close();
     }
 }

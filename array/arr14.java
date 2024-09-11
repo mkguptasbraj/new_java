@@ -34,7 +34,7 @@ public class arr14 {
  }
  System.out.println("unique element " + findUnique(arr));
         
-
+sc.close();
 
 
     }

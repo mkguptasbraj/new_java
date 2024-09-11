@@ -28,5 +28,7 @@ public class arr16 {
             arr[i]=  sc.nextInt();
  }
  System.out.println("First repetiting value::" +first_repeting_value(arr));
-    }
+    
+ sc.close();
+}
 }

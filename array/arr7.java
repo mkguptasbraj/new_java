@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
 public class arr7 {
-     static void printArray(int[] arr){
-        for (int i = 0; i < arr.length ; i++) {
-       System.out.print(arr[i]+ " ");
-   }
-   System.out.println();
-}
+//      static void printArray(int[] arr){
+//         for (int i = 0; i < arr.length ; i++) {
+//        System.out.print(arr[i]+ " ");
+//    }
+//    System.out.println();
+// }
 
 
 
@@ -32,4 +32,5 @@ public class arr7 {
             System.out.println("Count of x :" + countOccuerence(arr, x));
 
    } 
+   sc.close();
 }}

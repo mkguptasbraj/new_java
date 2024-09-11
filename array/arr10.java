@@ -36,6 +36,6 @@ public class arr10 {
       //  int last_index = sc.nextInt();
         System.out.println("is sorted : " + isSorted(arr));
 
-  
+        sc.close();
     }
 }
