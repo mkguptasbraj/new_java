@@ -1,14 +1,8 @@
 
 import java.util.Scanner;
 
-
-
-
 public class abcd {
-   
 
-
-  
     static int factorial(int n) {
         // Base case: factorial of 0 is 1
         if (n == 0) {
@@ -27,4 +21,3 @@ public class abcd {
         sc.close();
     }
 }
-
